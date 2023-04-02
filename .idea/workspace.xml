@@ -15,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +46,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.book.Test">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vatlieu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.vatlieu.test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex2.Test" />
       <module name="minnitest2" />
@@ -85,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vatlieu.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vatlieu.test" />
+      <module name="minnitest2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vatlieu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vatlieu.test" />
         <item itemvalue="Application.book.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
@@ -106,7 +126,11 @@
       <workItem from="1680233028013" duration="105000" />
       <workItem from="1680235323819" duration="3332000" />
       <workItem from="1680272036102" duration="2420000" />
-      <workItem from="1680312144855" duration="15429000" />
+      <workItem from="1680312144855" duration="22041000" />
+      <workItem from="1680357366452" duration="5571000" />
+      <workItem from="1680402673997" duration="19000" />
+      <workItem from="1680403132881" duration="6024000" />
+      <workItem from="1680441308386" duration="10183000" />
     </task>
     <servers />
   </component>
