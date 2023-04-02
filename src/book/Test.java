@@ -41,16 +41,16 @@ public class Test {
                 List.inputBook(fictionBook);
             } else if (choice==3) {
                 System.out.println("Danh sách: ");
+                List.outputBook();
                 System.out.println();
-            List.outputBook();
             } else if (choice==4) {
                 System.out.println("Tổng tiền: ");
-                System.out.println();
                 List.totalMoney();
+                System.out.println();
             } else if (choice==5) {
                 System.out.println("Số sách có giá tiền nhỏ hơn 100 là: ");
-                System.out.println();
                 List.price100();
+                System.out.println();
             } else if (choice==6) {
                 System.out.println("Đếm số sách thể loại viễn tưởng 1:");
                 List.checkCategory();
