@@ -17,10 +17,38 @@ public class MaterialList {
         this.listMaterial.add(list);
     }
 
-    //xoa vat lieu
-    public boolean deleteMaterial(Material list) {
-        return this.listMaterial.remove(list);
+    //xoa vat lieu theo id
+    public void deleteMaterial(String id) {
+      for(Material n:listMaterial){
+          if(n.getId().equals(id)){
+              listMaterial.remove(n);
+              break;
+          }
+      }
+//      for(int i=0;i<listMaterial.size();i++){
+//          if(listMaterial.get(i).equals(id)){
+//              listMaterial.remove(listMaterial.get(i));
+//          }
+//      }
     }
+
+    //hàm sửa theo id
+    public void edit(String id,Material  list){
+        for(int i =0; i<listMaterial.size();i++){
+            if(listMaterial.get(i).getId().equals(id)){
+                listMaterial.set(i,list);
+            }
+        }
+//        int index =0;
+//        for(Material n:listMaterial){
+//            if(n.getId().equals(id)){
+//                index = listMaterial.indexOf(n);
+//                break;
+//            }
+//        }
+//        listMaterial.set(index,list);
+    }
+
 
     // hiển thị danh sách
     public void render(){
