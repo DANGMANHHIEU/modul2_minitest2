@@ -26,7 +26,11 @@ public class test {
         materialList.addMaterial(crispyFlour1);  materialList.addMaterial(crispyFlour2);  materialList.addMaterial(crispyFlour3);
         materialList.addMaterial(crispyFlour4);  materialList.addMaterial(crispyFlour5);
 
-        materialList.deleteMaterial(crispyFlour5);
+        materialList.deleteMaterial("B5");
+
+       Meat meat6 =new Meat("A5","thịt nai", LocalDate.of(2023,1,2),40,3.5);
+       materialList.edit("A5",meat6);
+
         System.out.println("Hiển thị danh sách: ");
         materialList.render();
         System.out.println("Tổng tiền chưa chiết khấu: "+materialList.totalPrice() );
